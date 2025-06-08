@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node www",
+    "build": "",
+    "postbuild": "chmod +x postbuild.sh && postbuild.sh"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
