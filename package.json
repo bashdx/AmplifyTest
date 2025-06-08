@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node www",
     "build": "",
-    "postbuild": "chmod +x postbuild.sh && postbuild.sh"
+    "postbuild": "chmod +x postbuild.sh && ./postbuild.sh"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
