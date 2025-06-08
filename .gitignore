@@ -1,0 +1,4 @@
+node_modules/
+deploy-manifest.json
+postbuild.sh
+.amplify-hosting
